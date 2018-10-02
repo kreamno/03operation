@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
 	scanf("%d", &sec);
 	
 	
-	printf("%d sec. is %i:%i:%i \n",sec, sec/3600, (sec%3600)/60, sec%60);
+	printf(" sec %i is %i:%i:%i \n",sec, sec/3600, (sec%3600)/60, sec%60);
 
 	
 	return 0;
